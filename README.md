@@ -14,7 +14,7 @@ countries;
 user-defined preferences.
 
 ## Folder Structure
-• Brain_drain.ipynb — the main notebook containing code and analysis.
+• Brain_drain.ipynb — the main notebook containing code and analysis./
 • Datasets/ — folder with the CSV files required by the notebook.
 For proper execution, the Datasets folder must be located in the following Google Drive path:
 MyDrive/Data_Science_Lab/Datasets
