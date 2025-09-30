@@ -5,17 +5,17 @@ This tool helps you find the best countries based on your personal preferences, 
 This work investigates the migration flows of tertiary-educated individuals, with a particular focus
 on OECD countries. The analysis integrates statistical data and socio-economic indicators in order
 to:
-• perform data preparation and normalization;
-• produce exploratory visualizations of migration flows;
-• implement interactive tools for cross-country comparison;
-• apply clustering methods and dimensionality reduction (PCA) to identify groups of similar
+* perform data preparation and normalization;
+* produce exploratory visualizations of migration flows;
+* implement interactive tools for cross-country comparison;
+* apply clustering methods and dimensionality reduction (PCA) to identify groups of similar
 countries;
-• develop a recommendation system capable of suggesting suitable destinations based on
+* develop a recommendation system capable of suggesting suitable destinations based on
 user-defined preferences.
 
 ## Folder Structure
-• Brain_drain.ipynb — the main notebook containing code and analysis.
-• Datasets/ — folder with the CSV files required by the notebook.
+* Brain_drain.ipynb — the main notebook containing code and analysis.
+* Datasets/ — folder with the CSV files required by the notebook.
 For proper execution, the Datasets folder must be located in the following Google Drive path:
 MyDrive/Data_Science_Lab/Datasets
 
