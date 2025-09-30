@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
 # === LOAD DATA ===
-df = pd.read_csv("dataset_final.csv")
+df = pd.read_csv("Web_app/dataset_final.csv")
 
 st.set_page_config(page_title="GoWhere - Brain Drain Analyzer", layout="centered")
 
