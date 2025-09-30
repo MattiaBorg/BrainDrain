@@ -31,31 +31,42 @@ The notebook is designed for Google Colab, which provides the required libraries
 pandas, numpy, matplotlib, seaborn, scikit-learn, plotly, networkx, ipywidgets.
 
 
+
+
 # Web App
 
-## 🚀 Come usare l'app
+📁 **File inclusi nella cartella `Web_app`**
 
-1. **Clona la repository o scarica i file.**
-2. Assicurati di avere Python 3.9+ installato.
+* `app.py` → codice principale dell’app Streamlit
+* `dataset_final.csv` → dataset dei flussi migratori e indicatori OCSE
+* `requirements.txt` → pacchetti Python necessari
+
+🚀 **Come usare l'app**
+
+1. Clona la repository o scarica i file:
+
+   ```bash
+   git clone <url-della-repo>
+   cd Brain_drain/Web_app
+   ```
+
+2. Assicurati di avere **Python 3.9+** installato.
+
 3. Installa i pacchetti richiesti:
-```bash
-pip install -r requirements.txt
-```
-> ⚠️ Nota: `pygraphviz` richiede Graphviz installato sul sistema. Su Ubuntu/Debian:
-```bash
-sudo apt-get install graphviz graphviz-dev
-```
 
-4. Avvia l'app Streamlit:
-```bash
-streamlit run app.py
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
----
+4. ⚠️ **Nota:** `pygraphviz` richiede Graphviz installato sul sistema. Su Ubuntu/Debian:
 
-## 📁 File inclusi
+   ```bash
+   sudo apt-get install graphviz graphviz-dev
+   ```
 
-- `app.py` → codice principale dell’app Streamlit
-- `dataset_final.csv` → dataset dei flussi migratori e indicatori OCSE
-- `requirements.txt` → pacchetti Python necessari
+5. Avvia l'app Streamlit:
+
+   ```bash
+   streamlit run app.py
+   ```
 
