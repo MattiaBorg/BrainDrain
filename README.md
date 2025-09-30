@@ -69,7 +69,7 @@ pandas, numpy, matplotlib, seaborn, scikit-learn, plotly, networkx, ipywidgets.
    streamlit run app.py
    ```
 
-🌐 If you want to visit the website and use the app without running it locally, click here: [https://drain-brain-n7gnfg5ukyjj2lnkbcuhxm.streamlit.app/]
+🌐 If you want to visit the website and use the app without running it locally, click here: [https://braindrain-bkjnbr7ps5yqfx3but5pqf.streamlit.app/]
 
 
 
