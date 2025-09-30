@@ -32,41 +32,48 @@ pandas, numpy, matplotlib, seaborn, scikit-learn, plotly, networkx, ipywidgets.
 
 
 
-
 # Web App
 
-📁 **File inclusi nella cartella `Web_app`**
+📁 **Files included in the `Web_app` folder**
 
-* `app.py` → codice principale dell’app Streamlit
-* `dataset_final.csv` → dataset dei flussi migratori e indicatori OCSE
-* `requirements.txt` → pacchetti Python necessari
+* `app.py` → main code of the Streamlit app
+* `dataset_final.csv` → dataset of migration flows and OECD indicators
+* `requirements.txt` → required Python packages
 
-🚀 **Come usare l'app**
+🚀 **How to use the app**
 
-1. Clona la repository o scarica i file:
+1. Clone the repository or download the files:
 
    ```bash
-   git clone <url-della-repo>
+   git clone <repo-url>
    cd Brain_drain/Web_app
    ```
 
-2. Assicurati di avere **Python 3.9+** installato.
+2. Make sure you have **Python 3.9+** installed.
 
-3. Installa i pacchetti richiesti:
+3. Install the required packages:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. ⚠️ **Nota:** `pygraphviz` richiede Graphviz installato sul sistema. Su Ubuntu/Debian:
+4. ⚠️ **Note:** `pygraphviz` requires Graphviz installed on your system. On Ubuntu/Debian:
 
    ```bash
    sudo apt-get install graphviz graphviz-dev
    ```
 
-5. Avvia l'app Streamlit:
+5. Run the Streamlit app:
 
    ```bash
    streamlit run app.py
    ```
+
+🌐 If you want to visit the website and use the app without running it locally, click here: [link]
+ 
+    
+    
+    
+    
+    ```
 
