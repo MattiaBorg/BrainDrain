@@ -1,4 +1,4 @@
-# BrainDrain
+# BrainDrain - Data Collection and Application Service
 This project was developed as part of a university course on Data Science.
 This tool helps you find the best countries based on your personal preferences, comparing key factors like jobs, safety, health, and more. Answer a few questions to get personalized recommendations and visualize the best destinations.
 
